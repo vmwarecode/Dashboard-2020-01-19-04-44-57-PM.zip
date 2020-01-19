@@ -1,0 +1,940 @@
+{
+   "dashboards": [
+      {
+         "autoswitchEnabled": false,
+         "columnCount": 1,
+         "columnProportion": "1-1",
+         "creationTime": 1579445855492,
+         "dashboardNavigations": {},
+         "description": "",
+         "disabled": false,
+         "gridsterMaxColumns": 12,
+         "hidden": false,
+         "homeTab": false,
+         "id": "583f8be9-f916-403d-9e57-412324b692c1",
+         "importAttempts": 0,
+         "importComplete": true,
+         "isDefault": false,
+         "locked": false,
+         "name": "Custom Dashboards/Cisco UCS FI Ethernet Port Traffic",
+         "namePath": "Custom Dashboards",
+         "rank": 668,
+         "shared": false,
+         "states": [],
+         "temporary": false,
+         "userId": "37275519-dcc9-47c7-b117-6dbbf4e623ef",
+         "widgetInteractions": [
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "702130f2-7bdb-4257-9278-90b26042dcc3",
+               "widgetIdReceiver": "ea8d0569-a886-4918-95a3-e447ca8c6c6d"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "702130f2-7bdb-4257-9278-90b26042dcc3",
+               "widgetIdReceiver": "9aaadea0-fe87-4aa9-8d1f-498ac3afa32f"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "702130f2-7bdb-4257-9278-90b26042dcc3",
+               "widgetIdReceiver": "5b38dafb-aeed-400d-9416-907fc6a50c8a"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "702130f2-7bdb-4257-9278-90b26042dcc3",
+               "widgetIdReceiver": "8abd6fd2-73de-4668-9513-fee1aed11759"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "702130f2-7bdb-4257-9278-90b26042dcc3",
+               "widgetIdReceiver": "966d986f-25b6-41ad-9a5e-b10bd6cbb25b"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "702130f2-7bdb-4257-9278-90b26042dcc3",
+               "widgetIdReceiver": "2dd89c3d-9128-4876-973f-8306e149c5bc"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "702130f2-7bdb-4257-9278-90b26042dcc3",
+               "widgetIdReceiver": "144c5d98-ddb1-485c-b2a4-d0f3da540c6e"
+            }
+         ],
+         "widgets": [
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [
+                     {
+                        "boxLabel": "Kernel Firmware",
+                        "metricKey": "general|kernelFirmwareRunning",
+                        "metricName": "General|Kernel Firmware Version",
+                        "resourceKindId": "resourceKind:id:0_::_"
+                     },
+                     {
+                        "boxLabel": "Mgmt IP",
+                        "metricKey": "general|oobIfIp",
+                        "metricName": "General|Management IP",
+                        "resourceKindId": "resourceKind:id:0_::_"
+                     },
+                     {
+                        "boxLabel": "Powered On",
+                        "metricKey": "general|poweredOn",
+                        "metricName": "General|Powered On",
+                        "resourceKindId": "resourceKind:id:0_::_"
+                     },
+                     {
+                        "boxLabel": "Serial",
+                        "metricKey": "general|serial",
+                        "metricName": "General|Serial Number",
+                        "resourceKindId": "resourceKind:id:0_::_"
+                     },
+                     {
+                        "boxLabel": "SW Firmware",
+                        "metricKey": "general|softwareFirmwareRunning",
+                        "metricName": "General|Software Firmware Version",
+                        "resourceKindId": "resourceKind:id:0_::_"
+                     }
+                  ],
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 1,
+                  "filterMode": "tagPicker",
+                  "mode": "all",
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "relationshipMode": {"relationshipMode": 0},
+                  "resource": [],
+                  "selectFirstRow": {"selectFirstRow": false},
+                  "selfProvider": {"selfProvider": true},
+                  "tagFilter": {
+                     "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                     "value": {
+                        "adapterInstance": [],
+                        "adapterKind": [],
+                        "bus": [],
+                        "collector": [],
+                        "day": [],
+                        "exclaim": false,
+                        "healthRange": [],
+                        "kind": ["resourceKind:id:0_::_"],
+                        "maintenanceSchedule": [],
+                        "state": [],
+                        "status": [],
+                        "tag": [],
+                        "tier": []
+                     }
+                  },
+                  "title": "Cisco UCS Fabric Interconnects"
+               },
+               "gridsterCoords": {
+                  "h": 8,
+                  "w": 6,
+                  "x": 1,
+                  "y": 1
+               },
+               "height": 438,
+               "id": "702130f2-7bdb-4257-9278-90b26042dcc3",
+               "states": [{
+                  "key": "permResGrid_widget_583f8be9-f916-403d-9e57-412324b692c1_702130f2-7bdb-4257-9278-90b26042dcc3",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A246.212890625%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A158.578125%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A109.373046875%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A123.958984375%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A143.302734375%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A147.3671875%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A175.478515625%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }],
+               "title": "Cisco UCS Fabric Interconnects",
+               "type": "ResourceList"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": "0,1",
+                  "filterMode": "tagPicker",
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "resourceId": null,
+                  "resourceName": null,
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": {
+                     "path": [
+                        "/source/kind/kind:resourceKind:id:1_::_",
+                        "/source/kind/kind:resourceKind:id:2_::_"
+                     ],
+                     "value": {
+                        "adapterInstance": [],
+                        "adapterKind": [],
+                        "bus": [],
+                        "collector": [],
+                        "day": [],
+                        "exclaim": false,
+                        "healthRange": [],
+                        "kind": [
+                           "resourceKind:id:1_::_",
+                           "resourceKind:id:2_::_"
+                        ],
+                        "maintenanceSchedule": [],
+                        "state": [],
+                        "status": [],
+                        "tag": [],
+                        "tier": []
+                     }
+                  },
+                  "title": "Object Relationship (Advanced)",
+                  "traversalSpecId": "Cisco UCS Environment-CiscoUcsAdapter-bm_ucs_tag"
+               },
+               "gridsterCoords": {
+                  "h": 8,
+                  "w": 6,
+                  "x": 7,
+                  "y": 1
+               },
+               "height": 438,
+               "id": "ea8d0569-a886-4918-95a3-e447ca8c6c6d",
+               "states": [
+                  {
+                     "key": "perm_toolbarVisible_widget_583f8be9-f916-403d-9e57-412324b692c1_ea8d0569-a886-4918-95a3-e447ca8c6c6d",
+                     "value": "b%3A1"
+                  },
+                  {
+                     "key": "perm_ResourceRelationshipTree_widget_583f8be9-f916-403d-9e57-412324b692c1_ea8d0569-a886-4918-95a3-e447ca8c6c6d",
+                     "value": "o%3A"
+                  },
+                  {
+                     "key": "perm_viewerType_widget_583f8be9-f916-403d-9e57-412324b692c1_ea8d0569-a886-4918-95a3-e447ca8c6c6d",
+                     "value": "s%3ArelationshipTree"
+                  }
+               ],
+               "title": "Object Relationship (Advanced)",
+               "type": "ResourceRelationshipAdvanced"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "barsCount": 15,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 10,
+                  "filterMode": "tagPicker",
+                  "filterOldMetrics": {"filterOldMetrics": false},
+                  "metric": {
+                     "metricKey": "network|fcs",
+                     "name": "Network|Frame Check Sequence Errors (errors/s)"
+                  },
+                  "mode": "all",
+                  "percentileValue": null,
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "regenerationTime": 15,
+                  "relationshipMode": {"relationshipMode": [
+                     -1,
+                     0
+                  ]},
+                  "resource": [],
+                  "resourceKind": [{"id": "resourceKind:id:1_::_"}],
+                  "roundDecimals": 1,
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": null,
+                  "title": "Ethernet Ports (for selected FI)",
+                  "topOption": "metricsHighestUtilization"
+               },
+               "gridsterCoords": {
+                  "h": 9,
+                  "w": 4,
+                  "x": 1,
+                  "y": 9
+               },
+               "height": 495,
+               "id": "9aaadea0-fe87-4aa9-8d1f-498ac3afa32f",
+               "title": "Ethernet Ports (for selected FI)",
+               "type": "ParetoAnalysis"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "barsCount": 15,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 10,
+                  "filterMode": "tagPicker",
+                  "filterOldMetrics": {"filterOldMetrics": false},
+                  "metric": {
+                     "metricKey": "network|rcv",
+                     "name": "Network|Receive Errors (errors/s)"
+                  },
+                  "mode": "all",
+                  "percentileValue": null,
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "regenerationTime": 15,
+                  "relationshipMode": {"relationshipMode": [
+                     -1,
+                     0
+                  ]},
+                  "resource": [],
+                  "resourceKind": [{"id": "resourceKind:id:1_::_"}],
+                  "roundDecimals": 1,
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": null,
+                  "title": "Ethernet Ports (for selected FI)",
+                  "topOption": "metricsHighestUtilization"
+               },
+               "gridsterCoords": {
+                  "h": 9,
+                  "w": 4,
+                  "x": 5,
+                  "y": 9
+               },
+               "height": 495,
+               "id": "5b38dafb-aeed-400d-9416-907fc6a50c8a",
+               "title": "Ethernet Ports (for selected FI)",
+               "type": "ParetoAnalysis"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "barsCount": 15,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 10,
+                  "filterMode": "tagPicker",
+                  "filterOldMetrics": {"filterOldMetrics": false},
+                  "metric": {
+                     "metricKey": "received_traffic|receivedBits",
+                     "name": "Received Traffic|Received Bits (bit/s)"
+                  },
+                  "mode": "all",
+                  "percentileValue": null,
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "regenerationTime": 15,
+                  "relationshipMode": {"relationshipMode": [
+                     -1,
+                     0
+                  ]},
+                  "resource": [],
+                  "resourceKind": [{"id": "resourceKind:id:1_::_"}],
+                  "roundDecimals": 1,
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": null,
+                  "title": "Ethernet Ports (for selected FI)",
+                  "topOption": "metricsHighestUtilization"
+               },
+               "gridsterCoords": {
+                  "h": 9,
+                  "w": 4,
+                  "x": 9,
+                  "y": 9
+               },
+               "height": 495,
+               "id": "8abd6fd2-73de-4668-9513-fee1aed11759",
+               "title": "Ethernet Ports (for selected FI)",
+               "type": "ParetoAnalysis"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "barsCount": 15,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 10,
+                  "filterMode": "tagPicker",
+                  "filterOldMetrics": {"filterOldMetrics": false},
+                  "metric": {
+                     "metricKey": "sent_traffic|sentPackets",
+                     "name": "Sent Traffic|Sent Packets (packets/s)"
+                  },
+                  "mode": "all",
+                  "percentileValue": null,
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "regenerationTime": 15,
+                  "relationshipMode": {"relationshipMode": [
+                     -1,
+                     0
+                  ]},
+                  "resource": [],
+                  "resourceKind": [{"id": "resourceKind:id:1_::_"}],
+                  "roundDecimals": 1,
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": null,
+                  "title": "Ethernet Ports (for selected FI)",
+                  "topOption": "metricsHighestUtilization"
+               },
+               "gridsterCoords": {
+                  "h": 6,
+                  "w": 4,
+                  "x": 9,
+                  "y": 18
+               },
+               "height": 324,
+               "id": "144c5d98-ddb1-485c-b2a4-d0f3da540c6e",
+               "title": "Ethernet Ports (for selected FI)",
+               "type": "ParetoAnalysis"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "barsCount": 15,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 10,
+                  "filterMode": "tagPicker",
+                  "filterOldMetrics": {"filterOldMetrics": false},
+                  "metric": {
+                     "metricKey": "sent_traffic|sentBits",
+                     "name": "Sent Traffic|Sent Bits (bit/s)"
+                  },
+                  "mode": "all",
+                  "percentileValue": null,
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "regenerationTime": 15,
+                  "relationshipMode": {"relationshipMode": [
+                     -1,
+                     0
+                  ]},
+                  "resource": [],
+                  "resourceKind": [{"id": "resourceKind:id:1_::_"}],
+                  "roundDecimals": 1,
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": null,
+                  "title": "Ethernet Ports (for selected FI)",
+                  "topOption": "metricsHighestUtilization"
+               },
+               "gridsterCoords": {
+                  "h": 6,
+                  "w": 4,
+                  "x": 5,
+                  "y": 18
+               },
+               "height": 324,
+               "id": "2dd89c3d-9128-4876-973f-8306e149c5bc",
+               "title": "Ethernet Ports (for selected FI)",
+               "type": "ParetoAnalysis"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "barsCount": 15,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 10,
+                  "filterMode": "tagPicker",
+                  "filterOldMetrics": {"filterOldMetrics": false},
+                  "metric": {
+                     "metricKey": "received_traffic|receivedPackets",
+                     "name": "Received Traffic|Received Packets (packets/s)"
+                  },
+                  "mode": "all",
+                  "percentileValue": null,
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "regenerationTime": 15,
+                  "relationshipMode": {"relationshipMode": [
+                     -1,
+                     0
+                  ]},
+                  "resource": [],
+                  "resourceKind": [{"id": "resourceKind:id:1_::_"}],
+                  "roundDecimals": 1,
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": null,
+                  "title": "Ethernet Ports (for selected FI)",
+                  "topOption": "metricsHighestUtilization"
+               },
+               "gridsterCoords": {
+                  "h": 6,
+                  "w": 4,
+                  "x": 1,
+                  "y": 18
+               },
+               "height": 324,
+               "id": "966d986f-25b6-41ad-9a5e-b10bd6cbb25b",
+               "title": "Ethernet Ports (for selected FI)",
+               "type": "ParetoAnalysis"
+            }
+         ]
+      },
+      {
+         "autoswitchEnabled": false,
+         "columnCount": 1,
+         "columnProportion": "1",
+         "creationTime": 1579447036357,
+         "dashboardNavigations": {},
+         "description": "",
+         "disabled": false,
+         "gridsterMaxColumns": 12,
+         "hidden": false,
+         "homeTab": false,
+         "id": "59fd3bf3-0200-452d-a5e3-cba3edb3c6ae",
+         "importAttempts": 0,
+         "importComplete": true,
+         "isDefault": false,
+         "locked": false,
+         "name": "Custom Dashboards/Cisco UCS FI Fiber Channel Port Traffic",
+         "namePath": "Custom Dashboards",
+         "rank": 669,
+         "shared": false,
+         "states": [],
+         "temporary": false,
+         "userId": "37275519-dcc9-47c7-b117-6dbbf4e623ef",
+         "widgetInteractions": [
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "66e8aa8c-d472-43df-a3ba-694a198802ca",
+               "widgetIdReceiver": "b5b8f724-14fc-4242-aa19-464b40c2683c"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "66e8aa8c-d472-43df-a3ba-694a198802ca",
+               "widgetIdReceiver": "9023b70d-cf45-4640-a86d-83ad071d0f8c"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "66e8aa8c-d472-43df-a3ba-694a198802ca",
+               "widgetIdReceiver": "ff108b4f-672a-49d1-84ea-d9df82f4a5c9"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "66e8aa8c-d472-43df-a3ba-694a198802ca",
+               "widgetIdReceiver": "64e7c74c-3afa-4eea-9e46-7ecceb32f918"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "66e8aa8c-d472-43df-a3ba-694a198802ca",
+               "widgetIdReceiver": "a678ed31-03b3-4e4c-beef-b3a7b76bd587"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "66e8aa8c-d472-43df-a3ba-694a198802ca",
+               "widgetIdReceiver": "239efee5-8214-4eca-85df-88588e737115"
+            }
+         ],
+         "widgets": [
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [
+                     {
+                        "boxLabel": "Kernel Firmware",
+                        "metricKey": "general|kernelFirmwareRunning",
+                        "metricName": "General|Kernel Firmware Version",
+                        "resourceKindId": "resourceKind:id:0_::_"
+                     },
+                     {
+                        "boxLabel": "Mgmt IP",
+                        "metricKey": "general|oobIfIp",
+                        "metricName": "General|Management IP",
+                        "resourceKindId": "resourceKind:id:0_::_"
+                     },
+                     {
+                        "boxLabel": "Powered On",
+                        "metricKey": "general|poweredOn",
+                        "metricName": "General|Powered On",
+                        "resourceKindId": "resourceKind:id:0_::_"
+                     },
+                     {
+                        "boxLabel": "Serial",
+                        "metricKey": "general|serial",
+                        "metricName": "General|Serial Number",
+                        "resourceKindId": "resourceKind:id:0_::_"
+                     },
+                     {
+                        "boxLabel": "SW Firmware",
+                        "metricKey": "general|softwareFirmwareRunning",
+                        "metricName": "General|Software Firmware Version",
+                        "resourceKindId": "resourceKind:id:0_::_"
+                     }
+                  ],
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 1,
+                  "filterMode": "tagPicker",
+                  "mode": "all",
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "relationshipMode": {"relationshipMode": 0},
+                  "resource": [],
+                  "selectFirstRow": {"selectFirstRow": false},
+                  "selfProvider": {"selfProvider": true},
+                  "tagFilter": {
+                     "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                     "value": {
+                        "adapterInstance": [],
+                        "adapterKind": [],
+                        "bus": [],
+                        "collector": [],
+                        "day": [],
+                        "exclaim": false,
+                        "healthRange": [],
+                        "kind": ["resourceKind:id:0_::_"],
+                        "maintenanceSchedule": [],
+                        "state": [],
+                        "status": [],
+                        "tag": [],
+                        "tier": []
+                     }
+                  },
+                  "title": "Cisco UCS Fabric Interconnects"
+               },
+               "gridsterCoords": {
+                  "h": 8,
+                  "w": 6,
+                  "x": 1,
+                  "y": 1
+               },
+               "height": 438,
+               "id": "66e8aa8c-d472-43df-a3ba-694a198802ca",
+               "states": [{
+                  "key": "permResGrid_widget_59fd3bf3-0200-452d-a5e3-cba3edb3c6ae_66e8aa8c-d472-43df-a3ba-694a198802ca",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A246.212890625%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A158.578125%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A142.76953125%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A143.302734375%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A175.478515625%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }],
+               "title": "Cisco UCS Fabric Interconnects",
+               "type": "ResourceList"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": "0,1",
+                  "filterMode": "tagPicker",
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "resourceId": null,
+                  "resourceName": null,
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": {
+                     "path": [
+                        "/source/kind/kind:resourceKind:id:2_::_",
+                        "/source/kind/kind:resourceKind:id:1_::_"
+                     ],
+                     "value": {
+                        "adapterInstance": [],
+                        "adapterKind": [],
+                        "bus": [],
+                        "collector": [],
+                        "day": [],
+                        "exclaim": false,
+                        "healthRange": [],
+                        "kind": [
+                           "resourceKind:id:2_::_",
+                           "resourceKind:id:1_::_"
+                        ],
+                        "maintenanceSchedule": [],
+                        "state": [],
+                        "status": [],
+                        "tag": [],
+                        "tier": []
+                     }
+                  },
+                  "title": "Advanced Object Relationship (for selected FI)",
+                  "traversalSpecId": "Cisco UCS Environment-CiscoUcsAdapter-bm_ucs_tag"
+               },
+               "gridsterCoords": {
+                  "h": 8,
+                  "w": 6,
+                  "x": 7,
+                  "y": 1
+               },
+               "height": 438,
+               "id": "b5b8f724-14fc-4242-aa19-464b40c2683c",
+               "states": [
+                  {
+                     "key": "perm_toolbarVisible_widget_59fd3bf3-0200-452d-a5e3-cba3edb3c6ae_b5b8f724-14fc-4242-aa19-464b40c2683c",
+                     "value": "b%3A1"
+                  },
+                  {
+                     "key": "perm_viewerType_widget_59fd3bf3-0200-452d-a5e3-cba3edb3c6ae_b5b8f724-14fc-4242-aa19-464b40c2683c",
+                     "value": "s%3ArelationshipTree"
+                  },
+                  {
+                     "key": "perm_ResourceRelationshipTree_widget_59fd3bf3-0200-452d-a5e3-cba3edb3c6ae_b5b8f724-14fc-4242-aa19-464b40c2683c",
+                     "value": "o%3A"
+                  }
+               ],
+               "title": "Advanced Object Relationship (for selected FI)",
+               "type": "ResourceRelationshipAdvanced"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "barsCount": 15,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 10,
+                  "filterMode": "tagPicker",
+                  "filterOldMetrics": {"filterOldMetrics": false},
+                  "metric": {
+                     "metricKey": "received_traffic|bitsRx",
+                     "name": "Received Traffic|Bits Received (bit/s)"
+                  },
+                  "mode": "all",
+                  "percentileValue": null,
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "regenerationTime": 15,
+                  "relationshipMode": {"relationshipMode": [
+                     -1,
+                     0
+                  ]},
+                  "resource": [],
+                  "resourceKind": [{"id": "resourceKind:id:2_::_"}],
+                  "roundDecimals": 1,
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": null,
+                  "title": "Fiber Channel Ports (for selected FI)",
+                  "topOption": "metricsHighestUtilization"
+               },
+               "gridsterCoords": {
+                  "h": 9,
+                  "w": 4,
+                  "x": 1,
+                  "y": 9
+               },
+               "height": 495,
+               "id": "9023b70d-cf45-4640-a86d-83ad071d0f8c",
+               "title": "Fiber Channel Ports (for selected FI)",
+               "type": "ParetoAnalysis"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "barsCount": 15,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 10,
+                  "filterMode": "tagPicker",
+                  "filterOldMetrics": {"filterOldMetrics": false},
+                  "metric": {
+                     "metricKey": "received_traffic|crcRxErrors",
+                     "name": "Received Traffic|CRC Receive Errors (errors/s)"
+                  },
+                  "mode": "all",
+                  "percentileValue": null,
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "regenerationTime": 15,
+                  "relationshipMode": {"relationshipMode": [
+                     -1,
+                     0
+                  ]},
+                  "resource": [],
+                  "resourceKind": [{"id": "resourceKind:id:2_::_"}],
+                  "roundDecimals": 1,
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": null,
+                  "title": "Fiber Channel Ports (for selected FI)",
+                  "topOption": "metricsHighestUtilization"
+               },
+               "gridsterCoords": {
+                  "h": 9,
+                  "w": 4,
+                  "x": 5,
+                  "y": 9
+               },
+               "height": 495,
+               "id": "ff108b4f-672a-49d1-84ea-d9df82f4a5c9",
+               "title": "Fiber Channel Ports (for selected FI)",
+               "type": "ParetoAnalysis"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "barsCount": 15,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 10,
+                  "filterMode": "tagPicker",
+                  "filterOldMetrics": {"filterOldMetrics": false},
+                  "metric": {
+                     "metricKey": "received_traffic|packetsRx",
+                     "name": "Received Traffic|Packets Received (packets/s)"
+                  },
+                  "mode": "all",
+                  "percentileValue": null,
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "regenerationTime": 15,
+                  "relationshipMode": {"relationshipMode": [
+                     -1,
+                     0
+                  ]},
+                  "resource": [],
+                  "resourceKind": [{"id": "resourceKind:id:2_::_"}],
+                  "roundDecimals": 1,
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": null,
+                  "title": "Fiber Channel Ports (for selected FI)",
+                  "topOption": "metricsHighestUtilization"
+               },
+               "gridsterCoords": {
+                  "h": 9,
+                  "w": 4,
+                  "x": 9,
+                  "y": 9
+               },
+               "height": 495,
+               "id": "64e7c74c-3afa-4eea-9e46-7ecceb32f918",
+               "title": "Fiber Channel Ports (for selected FI)",
+               "type": "ParetoAnalysis"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "barsCount": 15,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 10,
+                  "filterMode": "tagPicker",
+                  "filterOldMetrics": {"filterOldMetrics": false},
+                  "metric": {
+                     "metricKey": "sent_traffic|packetsTx",
+                     "name": "Sent Traffic|Packets Transmitted (packets/s)"
+                  },
+                  "mode": "all",
+                  "percentileValue": null,
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "regenerationTime": 15,
+                  "relationshipMode": {"relationshipMode": [
+                     -1,
+                     0
+                  ]},
+                  "resource": [],
+                  "resourceKind": [{"id": "resourceKind:id:2_::_"}],
+                  "roundDecimals": 1,
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": null,
+                  "title": "Fiber Channel Ports (for selected FI)",
+                  "topOption": "metricsHighestUtilization"
+               },
+               "gridsterCoords": {
+                  "h": 7,
+                  "w": 6,
+                  "x": 7,
+                  "y": 18
+               },
+               "height": 381,
+               "id": "239efee5-8214-4eca-85df-88588e737115",
+               "title": "Fiber Channel Ports (for selected FI)",
+               "type": "ParetoAnalysis"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "barsCount": 15,
+                  "customFilter": {
+                     "excludedResources": null,
+                     "filter": [],
+                     "includedResources": null
+                  },
+                  "depth": 10,
+                  "filterMode": "tagPicker",
+                  "filterOldMetrics": {"filterOldMetrics": false},
+                  "metric": {
+                     "metricKey": "sent_traffic|bitsTx",
+                     "name": "Sent Traffic|Bits Transmitted (bit/s)"
+                  },
+                  "mode": "all",
+                  "percentileValue": null,
+                  "refreshContent": {"refreshContent": true},
+                  "refreshInterval": 300,
+                  "regenerationTime": 15,
+                  "relationshipMode": {"relationshipMode": [
+                     -1,
+                     0
+                  ]},
+                  "resource": [],
+                  "resourceKind": [{"id": "resourceKind:id:2_::_"}],
+                  "roundDecimals": 1,
+                  "selfProvider": {"selfProvider": false},
+                  "tagFilter": null,
+                  "title": "Fiber Channel Ports (for selected FI)",
+                  "topOption": "metricsHighestUtilization"
+               },
+               "gridsterCoords": {
+                  "h": 7,
+                  "w": 6,
+                  "x": 1,
+                  "y": 18
+               },
+               "height": 381,
+               "id": "a678ed31-03b3-4e4c-beef-b3a7b76bd587",
+               "title": "Fiber Channel Ports (for selected FI)",
+               "type": "ParetoAnalysis"
+            }
+         ]
+      }
+   ],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "CiscoUcsAdapter",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "bm_ucs_ethernet_port"
+      },
+      {
+         "adapterKindKey": "CiscoUcsAdapter",
+         "internalId": "resourceKind:id:2_::_",
+         "resourceKindKey": "bm_ucs_fiber_channel_port"
+      },
+      {
+         "adapterKindKey": "CiscoUcsAdapter",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "bm_ucs_fabric_interconnect"
+      }
+   ]},
+   "uuid": "f332a4a0-8d89-4416-a726-be7c7de560e4"
+}
